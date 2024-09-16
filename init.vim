@@ -25,6 +25,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' 
 Plug 'airblade/vim-rooter'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'romgrk/barbar.nvim'
+Plug 'valloric/MatchTagAlways'
 call plug#end()
 
 so /Users/briansiklinski/.config/nvim/plugins/lightline.vim
