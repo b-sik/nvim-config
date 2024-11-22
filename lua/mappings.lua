@@ -1,3 +1,5 @@
+vim.api.nvim_set_keymap('n', '<leader>t', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+
 --change colorscheme
 local colorschemes = {'kanagawa-dragon', 'kanagawa-wave', 'kanagawa-lotus'}
 local colorschemes_idx = vim.fn.index(
