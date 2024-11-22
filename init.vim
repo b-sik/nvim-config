@@ -26,6 +26,7 @@ Plug 'airblade/vim-rooter'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'romgrk/barbar.nvim'
 Plug 'valloric/MatchTagAlways'
+Plug 'norcalli/nvim-colorizer.lua'
 call plug#end()
 
 so /Users/briansiklinski/.config/nvim/plugins/lightline.vim
@@ -34,3 +35,5 @@ so /Users/briansiklinski/.config/nvim/plugins/vista.vim
 so /Users/briansiklinski/.config/nvim/mappings.vim
 
 lua require('init')
+
+lua require'colorizer'.setup()
